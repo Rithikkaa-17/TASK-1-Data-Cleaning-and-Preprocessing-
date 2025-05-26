@@ -1,14 +1,16 @@
 # TASK-1-Data-Cleaning-and-Preprocessing
 Objective:
 To clean and preprocess the Medical Appointment No Shows dataset by identifying and handling:
-Missing values
-Duplicate records
-Invalid data (e.g.negative ages)
-Inconsistent formats in text and date columns
-Poorly structured column names
-The final goal is to prepare a clean dataset suitable for analysis and modeling.
+
+1. Missing values
+2. Duplicate records
+3. Invalid data (e.g.negative ages)
+4. Inconsistent formats in text and date columns
+5. Poorly structured column names
+6. The final goal is to prepare a clean dataset suitable for analysis and modeling.
 
 Tools Used:
+
 Google Colab
 
 Steps Performed:
@@ -29,18 +31,18 @@ Made categorical text columns like Gender and No-show consistent using .str.uppe
 8. Column Renaming
 Renamed all column headers to lowercase with underscores using string methods for clarity and ease of use.
 9. Final Verification
-Rechecked data using .isnull(), .duplicated(), and dtypes to confirm cleanliness and consistency.
+Rechecked data using .isnull(), .duplicated() and dtypes to confirm cleanliness and consistency.
 
 Output Files:
-cleaned_medical_appointments.csv: Cleaned version of the dataset
-task1_cleaning.ipynb: Notebook with all steps and code
-Task_1_Detailed_Report.docx: Word document summary with step-by-step explanation
+1. cleaned_medical_appointments.csv: Cleaned version of the dataset
+2. task1_cleaning.ipynb: Notebook with all steps and code
+3. Task_1_Detailed_Report.docx: Word document summary with step-by-step explanation
 
 Learning Outcomes:
 Practiced real-world data preprocessing using Python
-Understood how to identify and fix common issues like nulls, duplicates, and format inconsistencies
+Understood how to identify and fix common issues like nulls, duplicates and format inconsistencies
 Learned to prepare datasets for deeper data analysis or machine learning
 
 Submission:
-GitHub Repository: [Your GitHub Link Here]
+GitHub Repository: https://github.com/Rithikkaa-17/TASK-1-Data-Cleaning-and-Preprocessing-
 Submitted on: 26-05-2025
